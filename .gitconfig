@@ -1,6 +1,10 @@
 # This is Git's per-user configuration file.
 [user]
-	name = Anthony Morales
-	email = amorales@cubitplanning.com
+  name = Anthony Morales
+  email = amorales@cubitplanning.com
 [init]
-	defaultBranch = main
+  defaultBranch = main
+[alias]
+  cm = commit -m
+  co = checkout
+  st = status
